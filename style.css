@@ -166,6 +166,8 @@ hr{
     margin: 2em auto 3em auto;
     line-height: 2;
 }
+
+
 .bottom_container a{
     text-decoration: none;
     background-color: #11999e;
@@ -202,6 +204,6 @@ footer p{
     font-size: .8rem;
 }
 
-footer div{
+footer div {
     margin: 3em auto 3em auto;
 }
