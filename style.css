@@ -1,0 +1,203 @@
+:root{
+    --bg-color: #3E497A;
+    --text-color:#F1D00A;
+    --card-bg:#21325E;
+    --light-bg:#f0f0f0;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+body{
+    background-color: var(--light-bg);
+    text-align: center;
+    
+}
+
+h1, h2{
+    color: #66BFBF;
+}
+
+h3{
+    color: #11999e;
+}
+
+hr{
+    
+    border: 5px dotted grey;
+    border-bottom: 0px ;
+    margin: 2.5em auto;
+    /* border-radius: 50%; */
+    width: 3.5%;
+}
+
+
+
+.top_container{
+    position: relative;
+}
+
+.top_container h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    position: absolute;
+    text-align: center;
+    /* to use margin auto and text align center property we use left and right =0 to center */
+    margin: auto;
+    left: 0;
+    right: 0;
+    line-height: 2;
+    top: 25%;
+    
+    
+   
+}
+
+.top_container h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    position: absolute;
+    text-align: center;
+    font-weight: normal;
+    margin: auto;
+    left: 0;
+    right: 0;
+    
+    top: 45%;
+}
+
+
+.top_container h2 span{
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+}
+
+.top_container .top_baloon{
+    width: 100px;
+    position: absolute;
+    right: 25% ;
+    top: 20%;
+}
+
+.top_container .mountain{
+    width: 100%;
+}
+
+.top_container .bottom_baloon{
+    width: 100px;
+    left: 25% ;
+    top: 60%;
+    position: absolute;
+
+}
+
+.middle_container{
+    margin-top: 4em;
+}
+
+.middle_container p{
+    font-weight: 500;
+    margin-bottom: 4em;
+}
+
+.intro{
+    margin:30px auto;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+}
+
+
+
+
+.intro img{
+    width: 30%;
+}
+
+.skill{
+    margin-top: 3em;
+}
+
+.skill h2{
+    text-align: center;
+}
+
+
+.middle_container .skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+   
+}
+
+.skill-row img{
+    width: 25%;
+}
+
+.skill-row .programming{
+    float: left;
+    margin: 30px;
+    clear: right;
+}
+
+
+
+.skill-row .code{
+    float: right;
+    margin: 30px;
+}
+
+.skill-row p{
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+
+.bottom_container{
+    width: 50%;
+    margin:5em auto;
+}
+
+.bottom_container p{
+    font-weight: 500;
+    margin: 2em auto 3em auto;
+    line-height: 2;
+}
+.bottom_container a{
+    text-decoration: none;
+    background-color: #11999e;
+    color: #f0f0f0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.6em 0.8em;
+    border-radius: 6px;
+    margin-top: 1em;
+    
+}
+
+footer {
+    /* border: 1px solid; */
+    background-color: #66BFBF;
+    padding: 3em auto 3em auto;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 2em auto 1em auto;
+    color: #11999e;
+    padding-right: 1.5em;
+
+    
+    
+}
+
+footer p{
+    color: #eaf6f6;
+    margin-top: 2em;
+    font-size: .8rem;
+}
